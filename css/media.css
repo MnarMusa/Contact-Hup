@@ -1,0 +1,55 @@
+@media (min-width: 300px) { 
+    
+}
+
+@media (min-width: 576px) { 
+    nav{
+        height: 5rem;
+    } 
+    nav .logo .icon{
+        width: 2.75rem;
+        height: 2.75rem;
+    }
+    nav h1{
+        font-size: var(--text-2xl);
+    }
+    nav p{
+        font-size: var(--text-xs);
+    }
+    nav button.add{
+        padding: 0.625rem 1.25rem;
+    }
+    nav .nav-img{
+        width: 2.5rem;
+        height: 2.5rem;
+    }
+    main .quick-stats .inner{
+        padding: 1.25rem;
+    }
+    main .quick-stats .icon{
+        width: 3rem;
+        height: 3rem;
+        font-size: var(--text-base);
+    }
+    main .quick-stats .quick-stats-text p:first-child{
+        font-size: var(--text-xs);
+    }
+    main .quick-stats .quick-stats-text p:last-child{
+        font-size: var(--text-2xl);
+    }
+    main .all-contact .header h2{
+        font-size: var(--text-3xl);
+    }
+}
+
+@media (min-width: 768px) {  
+    
+}
+
+@media (min-width: 992px) { 
+}
+
+@media (min-width: 1200px) {  
+}
+
+@media (min-width: 1400px) {  }
